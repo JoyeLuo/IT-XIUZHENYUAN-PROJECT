@@ -12,4 +12,6 @@ public interface IStudentDAO {
 	public void updateStudent(Student student);
 
 	public String seachStudentNameById(int id);
+
+	public void removeAllStudent();
 }

@@ -33,4 +33,10 @@ public class StudentDAOImpl extends JdbcDaoSupport implements IStudentDAO{
 		return  this.getJdbcTemplate().queryForObject(sql, String.class, id);
 	}
 
+	public void removeAllStudent()
+	{
+		String sql = "delete from student";
+		this.getJdbcTemplate().update(sql);
+	}
+
 }

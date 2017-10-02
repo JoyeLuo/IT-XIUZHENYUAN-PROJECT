@@ -2,6 +2,7 @@ package com.test.com.test.xiuzhenyuan;
 
 import static org.junit.Assert.*;
 
+import org.junit.BeforeClass;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -12,6 +13,7 @@ import com.test.student.model.Student;
 
 public class IStudentDAOTest {
 
+	
 	@Test
 	public void testAddStudent() {
 
@@ -79,4 +81,12 @@ public class IStudentDAOTest {
 		 assertEquals("jonathan", name );		
 	}
 
+	@BeforeClass
+	 public static void beforeClass(){  
+		ApplicationContext applicationContext=new ClassPathXmlApplicationContext("applicationContext.xml");
+		IStudentDAO dao=(IStudentDAO) applicationContext.getBean("studentDao");
+
+		dao.removeAllStudent();
+    }  
+	
 }

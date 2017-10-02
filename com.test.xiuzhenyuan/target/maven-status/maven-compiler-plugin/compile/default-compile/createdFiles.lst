@@ -1,1 +1,4 @@
-com\test\com\test\xiuzhenyuan\App.class
+com\test\student\dao\impl\StudentDAOImpl.class
+com\test\student\model\Student.class
+com\test\student\dao\IStudentDAO.class
+com\test\student\dao\test\StudentDAOTest.class
