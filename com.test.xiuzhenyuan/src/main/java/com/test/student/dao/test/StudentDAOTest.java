@@ -4,7 +4,6 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import com.test.student.dao.IStudentDAO;
-import com.test.student.model.Student;
 
 public class StudentDAOTest {
 
@@ -25,9 +24,12 @@ public class StudentDAOTest {
 		dao.deleteStudentById(6);
 
 		System.out.println(dao.seachStudentNameById(7));*/
-		for (int i = 0; i <= 1000; i++) {
-			System.out.println(dao.seachStudentNameById(1));
-		}
+		long before = System.currentTimeMillis();
+		dao.seachStudentNameById(20000);
+		long after = System.currentTimeMillis();
+		long time = after - before;
+		System.out.println( time );
+		
 	}
 
 }

@@ -36,7 +36,7 @@ public class IStudentDAOTest {
 		student.setId(4);
 		student.setName("admin");
 
-		ApplicationContext applicationContext=new ClassPathXmlApplicationContext("applicationContext.xml");
+		ApplicationContext applicationContext=new ClassPathXmlApplicationContext("src/applicationContext.xml");
 		IStudentDAO dao=(IStudentDAO) applicationContext.getBean("studentDao");
 
 		dao.addStudent(student);
@@ -52,7 +52,7 @@ public class IStudentDAOTest {
 		student.setId(1);
 		student.setName("joye");
 
-		ApplicationContext applicationContext=new ClassPathXmlApplicationContext("applicationContext.xml");
+		ApplicationContext applicationContext=new ClassPathXmlApplicationContext("src/applicationContext.xml");
 		IStudentDAO dao=(IStudentDAO) applicationContext.getBean("studentDao");
 		dao.addStudent(student);
 
@@ -71,7 +71,7 @@ public class IStudentDAOTest {
 		student.setId(2);
 		student.setName("jonathan");
 
-		ApplicationContext applicationContext=new ClassPathXmlApplicationContext("applicationContext.xml");
+		ApplicationContext applicationContext=new ClassPathXmlApplicationContext("src/applicationContext.xml");
 		IStudentDAO dao=(IStudentDAO) applicationContext.getBean("studentDao");
 		
 		dao.addStudent(student);

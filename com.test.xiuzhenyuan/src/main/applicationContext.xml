@@ -40,7 +40,4 @@ http://www.springframework.org/schema/beans http://www.springframework.org/schem
     <bean id="studentDao" class="com.test.student.dao.impl.StudentDAOImpl">
         <property name="jdbcTemplate" ref="jdbcTemplate"></property>
     </bean>
-
-
-
 </beans>
