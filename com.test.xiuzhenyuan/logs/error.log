@@ -1,0 +1,13 @@
+2017-12-17 10:28:11  [ com.test.student.dao.test.StudentDAOTest.printLog(StudentDAOTest.java:26):com.test.student.dao.test.StudentDAOTest:main:620 ] - [ ERROR ]  error info
+ 2017-12-17 10:28:11  [ com.test.student.dao.test.StudentDAOTest.printLog(StudentDAOTest.java:27):com.test.student.dao.test.StudentDAOTest:main:620 ] - [ FATAL ]  fatal info
+ 2017-12-17 10:28:11  [ com.test.student.dao.test.StudentDAOTest.printLog(StudentDAOTest.java:29):com.test.student.dao.test.StudentDAOTest:main:620 ] - [ ERROR ]  error info
+ 2017-12-17 10:39:21  [ com.test.student.dao.test.StudentDAOTest.printLog(StudentDAOTest.java:26):com.test.student.dao.test.StudentDAOTest:main:592 ] - [ ERROR ]  error info
+ 2017-12-17 10:39:21  [ com.test.student.dao.test.StudentDAOTest.printLog(StudentDAOTest.java:27):com.test.student.dao.test.StudentDAOTest:main:592 ] - [ FATAL ]  fatal info
+ 2017-12-17 10:39:21  [ com.test.student.dao.test.StudentDAOTest.printLog(StudentDAOTest.java:29):com.test.student.dao.test.StudentDAOTest:main:592 ] - [ ERROR ]  error info
+ 2017-12-17 10:46:55  [ com.test.student.dao.test.StudentDAOTest.printLog(StudentDAOTest.java:26):com.test.student.dao.test.StudentDAOTest:main:624 ] - [ ERROR ]  error info
+ 2017-12-17 10:46:55  [ com.test.student.dao.test.StudentDAOTest.printLog(StudentDAOTest.java:27):com.test.student.dao.test.StudentDAOTest:main:624 ] - [ FATAL ]  fatal info
+ 2017-12-17 10:46:55  [ com.test.student.dao.test.StudentDAOTest.printLog(StudentDAOTest.java:29):com.test.student.dao.test.StudentDAOTest:main:625 ] - [ ERROR ]  error info
+ 2017-12-17 10:58:13  [ com.test.student.dao.test.StudentDAOTest.printLog(StudentDAOTest.java:26):com.test.student.dao.test.StudentDAOTest:main:615 ] - [ ERROR ]  error info
+ 2017-12-17 10:58:13  [ com.test.student.dao.test.StudentDAOTest.printLog(StudentDAOTest.java:27):com.test.student.dao.test.StudentDAOTest:main:615 ] - [ FATAL ]  fatal info
+ 2017-12-17 10:58:13  [ com.test.student.dao.test.StudentDAOTest.printLog(StudentDAOTest.java:29):com.test.student.dao.test.StudentDAOTest:main:615 ] - [ ERROR ]  error info
+ 
